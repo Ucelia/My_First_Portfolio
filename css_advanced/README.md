@@ -29,8 +29,8 @@ Welcome to the Smile School Landing Page! This project is a responsive and visua
 To get started with the project, simply clone this repository and open the `index.html` file in your browser.
 
 ```bash
-git clone https://github.com/Ucelia/css_advanced.git
-cd smile-school-landing-page
+git clone https://github.com/Ucelia/My_First_Portfolio/tree/main/css_advanced.git
+cd css_advanced
 ```
 
 Alternatively, you can download the repository as a ZIP file and extract it on your computer.
