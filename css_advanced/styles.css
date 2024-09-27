@@ -85,5 +85,26 @@ nav li a {
 .profiles img {
     margin-left: 40px;
 }
-
+.quote_section {
+    background-color: rgb(218, 90, 218);
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.presenter-descr {
+    color: white;
+    margin: 10px;
+    font-size: small;
+}
+.presenter-descr h3 {
+    font-weight: bold;
+}
+.presenter-descr p {
+    font-style: italic;
+}
+.quote_section img {
+    height: 50%;
+    margin-right: 30px;
+}
 
