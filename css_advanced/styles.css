@@ -1,0 +1,89 @@
+body {
+    background: url('./images/Object.png') no-repeat;
+    background-size: 213vh;
+    font-family: sans-serif;
+}
+/* header {
+    background-color: transparent; 
+    z-index: 1;
+} */
+nav {
+    display: flex; 
+    padding: 40px;
+    
+}
+.logo {
+    padding-left: 110px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 17px;
+}
+/* nav ul li {
+    display: inline-block;
+    padding-inline: 0;
+    padding-left:  100px;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+} */
+.middle {
+    text-align: center;
+    color: white;
+    
+}
+.schooled {
+    margin-top: 80px;
+}
+#title {
+    font-weight: bold;
+    font-size: 45px;
+}
+.schooled span {
+    font-size: 10px;
+    margin: 25px;
+}
+#reg-btn {
+    background-color: violet;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 9px;
+    margin-top: 8%;
+    border: 0cap;
+}
+.learn {
+    margin-top: 10%;
+}
+#learn {
+    color: violet;
+    font-weight: bold;
+}
+.profiles {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+#image2 {
+    border-radius: 70px;
+}
+.profiles h3 {
+    padding: 10px;
+    font-weight: bold;
+}
+.profiles p {
+    font-size: smaller;
+    font-weight: lighter;
+    margin: 5px;
+    font-style: italic;
+}
+.profiles img {
+    margin-left: 40px;
+}
+
+
