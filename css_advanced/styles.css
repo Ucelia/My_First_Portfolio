@@ -24,30 +24,30 @@ nav a {
     
 }
 .schooled {
-    margin-top: 80px;
+    margin-top: 90px;
 }
 #title {
     font-weight: bold;
-    font-size: 45px;
+    font-size: 60px;
 }
 .schooled span {
     font-size: 10px;
     margin: 25px;
 }
 #reg-btn {
-    background-color: violet;
+    background-color: rgb(185, 63, 212);
     border-radius: 50px;
     color: white;
     padding: 10px;
     font-size: 9px;
-    margin-top: 8%;
+    margin-top: 5%;
     border: 0cap;
 }
 .learn {
     margin-top: 10%;
 }
 #learn {
-    color: violet;
+    color: rgb(185, 63, 212);
     font-weight: bold;
 }
 .profiles {
@@ -230,6 +230,22 @@ nav a {
     opacity: 0.5;
     line-height: 25px;
 
+}
+.footer_section {
+    background-color: rgb(6, 6, 33);
+    height: 20vh;
+    color: white;
+    padding-top: 70px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_section p {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 10px;
+    opacity: 0.5;
 }
 
 
