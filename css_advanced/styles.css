@@ -86,7 +86,7 @@ nav li a {
     margin-left: 40px;
 }
 .quote_section {
-    background-color: rgb(218, 90, 218);
+    background-color: rgb(185, 63, 212);
     height: 35vh;
     display: flex;
     justify-content: center;
@@ -94,7 +94,7 @@ nav li a {
 }
 .presenter-descr {
     color: white;
-    margin: 10px;
+    margin: 5px;
     font-size: small;
 }
 .presenter-descr h3 {
@@ -106,5 +106,73 @@ nav li a {
 .quote_section img {
     height: 50%;
     margin-right: 30px;
+}
+.videos_section {
+    margin: 70px;
+}
+.vid_title {
+    text-align: center;
+}
+#popular {
+    color: rgb(185, 63, 212);
+    font-weight: bold;
+}
+.vids {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.vids_content{
+    margin: 9px;
+}
+.vids h3 {
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.container {
+    font-size: small;
+}
+.image_cont {
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto;
+}
+.base-image {
+    width: auto;
+    height: auto;
+    margin-right: 30px;
+}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    cursor: pointer;
+}
+.massey {
+    display: flex;
+    margin-top: 10px;
+}
+.massey img {
+    height: 25px;
+}
+.massey h4{
+    margin: 7px;
+    color: rgb(185, 63, 212);
+    font-weight: bold;
+}
+.rating {
+    display: flex;
+    margin-top: 10px;
+}
+.rating p {
+    margin-left: 65px;
+    color: rgb(185, 63, 212);
+    font-weight: bold;
 }
 
