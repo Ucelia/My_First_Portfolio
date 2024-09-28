@@ -3,10 +3,6 @@ body {
     background-size: 213vh;
     font-family: sans-serif;
 }
-/* header {
-    background-color: transparent; 
-    z-index: 1;
-} */
 nav {
     display: flex; 
     padding: 40px;
@@ -22,16 +18,6 @@ nav a {
     font-weight: bold;
     padding: 17px;
 }
-/* nav ul li {
-    display: inline-block;
-    padding-inline: 0;
-    padding-left:  100px;
-}
-nav li a {
-    text-decoration: none;
-    color: white;
-    font-size: small;
-} */
 .middle {
     text-align: center;
     color: white;
@@ -81,6 +67,7 @@ nav li a {
     font-weight: lighter;
     margin: 5px;
     font-style: italic;
+    opacity: 0.70;
 }
 .profiles img {
     margin-left: 40px;
@@ -125,6 +112,9 @@ nav li a {
 .vids_content{
     margin: 9px;
 }
+.vids_content p {
+    opacity: 0.60;
+}
 .vids h3 {
     font-weight: bold;
     font-size: small;
@@ -137,7 +127,7 @@ nav li a {
 .image_cont {
     position: relative;
     width: 100%;
-    max-width: 500px; /* Adjust as needed */
+    max-width: 500px; 
     margin: 0 auto;
 }
 .base-image {
@@ -150,7 +140,7 @@ nav li a {
     top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
-    width: 60px; /* Adjust size as needed */
+    width: 60px; 
     height: 60px;
     cursor: pointer;
 }
@@ -175,4 +165,72 @@ nav li a {
     color: rgb(185, 63, 212);
     font-weight: bold;
 }
+.memb_section {
+    background-color: rgb(6, 6, 33);
+    height: 57vh;
+    color: white;
+    padding-top: 70px;
+}
+.memb_section button {
+    background-color: rgb(185, 63, 212);
+    border-radius: 50px;
+    margin-left: 45%;
+    margin-top: 15px;
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 14px;
+    border: 0cap;
+}
+.memb_title {
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: large;
+}
+#free {
+    color: rgb(185, 63, 212);
+    font-weight: bold;
+}
+#membership {
+    opacity: 0.70;
+}
+.smile {
+    display: flex;
+    text-align: center;
+    font-size: small;
+    justify-content: space-around;
+    margin: 50px;
+}
+.smile h3 {
+    font-weight: bold;
+    margin: 20px;
+}
+.smile p {
+    font-weight: lighter;
+    opacity: 0.70;
+}
+.FAQ_section h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 50px;
+    margin-top: 70px;
+}
+.FAQ_section h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.how {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    font-size: small;
+}
+#para {
+    opacity: 0.5;
+    line-height: 25px;
+
+}
+
+
 
